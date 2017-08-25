@@ -67,12 +67,5 @@ Breadcrumb.propTypes = {
   crumbs: React.PropTypes.array,
 };
 
-function mapStateToProps(state) {
-  return {
-    crumbs: state.breadcrumbs,
-  };
-}
 
-export { Breadcrumb };
-
-export default connect(mapStateToProps)(Breadcrumb);
+export default Breadcrumb;
