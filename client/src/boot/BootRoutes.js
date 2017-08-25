@@ -1,6 +1,6 @@
 /* global window */
 
-import $ from 'jQuery';
+import $ from 'jquery';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router as ReactRouter, useRouterHistory } from 'react-router';
